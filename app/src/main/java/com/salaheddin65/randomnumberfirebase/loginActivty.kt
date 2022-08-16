@@ -24,7 +24,7 @@ class loginActivty : AppCompatActivity() {
         Etpassword = findViewById(R.id.etPassword)
         btnLogin = findViewById(R.id.btnLogin)
         btnLoginGoogle = findViewById(R.id.btnSigninWithGoogle)
-//
+
         btnLogin.setOnClickListener { loginUser() }
     }
     private fun loginUser() {
